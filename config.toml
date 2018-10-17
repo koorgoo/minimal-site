@@ -1,0 +1,18 @@
+baseURL = "https://koorgoo.github.io/minimal-site"
+languageCode = "en-us"
+title = "Minimal theme"
+theme = "minimal"
+
+publishDir = "docs"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+logo = "/img/logo.png"
+
+[params.github]
+isProjectPage = true
+repositoryURL = "https://github.com/koorgoo/minimal"
+repositoryNWO = "koorgoo/minimal"
+ownerName = "koorgoo"
+ownerURL = "https://github.com/koorgoo"
