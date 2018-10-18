@@ -5,13 +5,20 @@ theme = "minimal"
 
 publishDir = "docs"
 
+pygmentsCodeFences = true
+pygmentsStyle = "github"
+
 disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
 logo = "/img/logo.png"
+description = "Minimal is a theme for GitHub Pages."
+showDownloads = true
 
 [params.github]
 isProjectPage = true
+zipURL = "https://github.com/koorgoo/minimal/zipball/master"
+tarURL = "https://github.com/koorgoo/minimal/tarball/master"
 repositoryURL = "https://github.com/koorgoo/minimal"
 repositoryNWO = "koorgoo/minimal"
 ownerName = "koorgoo"
